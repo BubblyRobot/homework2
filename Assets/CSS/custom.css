@@ -1,0 +1,31 @@
+#logoheader {
+    background-color: #669900;
+    padding: 10px;
+    border: 25;
+    margin: 25;
+    line-height: 2;
+    font-size: 24px;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-style: bold;
+
+}
+
+.navbar {
+    min-height: 10%;
+    padding-left: 1rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    padding-right: 1rem;
+}
+
+
+
+.container-fluid{
+    background-color: #669900;
+}
+.wrapper{
+    background-color: white;
+    padding: 25px;
+    margin: 25px;
+}
