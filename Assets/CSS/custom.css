@@ -1,31 +1,79 @@
-#logoheader {
-    background-color: #669900;
-    padding: 10px;
-    border: 25;
-    margin: 25;
-    line-height: 2;
-    font-size: 24px;
-    color: white;
+body {
+    background-color: lightblue;
+    box-sizing: border-box;
     font-family: 'Playfair Display', serif;
+}
+
+
+.navbar {
+    background-color: white;
+    line-height: 40px;
+    margin-left: 0px;
+    margin-right: 25px;
+    border-bottom: 2PX solid salmon;
+    width: 100%;
+}
+.navbar-brand{
+    font-size:40px;
+    background-color: lightgrey;
+    padding: 20px;
     font-style: bold;
 
 }
-
-.navbar {
-    min-height: 10%;
-    padding-left: 1rem;
-    padding-top: 0rem;
-    padding-bottom: 0rem;
-    padding-right: 1rem;
+.navbar-nav{
+    display: flex;
+    flex-direction: row;
+    
 }
 
+#navbarNavAltMarkup{
+    /* //put something here to make it drop down below the rest of the menu when shrunken down.  */
+    display: block;
+}
 
+#column1{
+    padding: 20px;
+
+
+}
+#column2{
+    padding-top: 0px;
+    
+
+}
+
+hr{
+    border-top: 3px dotted white;
+}
 
 .container-fluid{
-    background-color: #669900;
+    background-color: lightgrey;
+    padding-right: 0px;
+    padding-left: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    width: 90%;
+    
+    
+    
 }
-.wrapper{
-    background-color: white;
-    padding: 25px;
-    margin: 25px;
+
+#bio-image{
+    width: 300px;
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+    margin: 20px;
+}
+
+.fixed-bottom {
+    padding-top: 10px;
+    background-color: lightgrey;
+    height: 50px;
+    text-align: center;
+    border-top: 2px solid  salmon;
+    position: absolute;
+    width: 100%;
+
 }
