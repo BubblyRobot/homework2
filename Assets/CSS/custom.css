@@ -2,6 +2,8 @@ body {
     background-color: lightblue;
     box-sizing: border-box;
     font-family: 'Playfair Display', serif;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -12,17 +14,33 @@ body {
     margin-right: 25px;
     border-bottom: 2PX solid salmon;
     width: 100%;
+    padding: 0;
+
 }
 .navbar-brand{
     font-size:40px;
     background-color: lightgrey;
     padding: 20px;
-    font-style: bold;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    border: 0;
 
 }
-.navbar-nav{
+
+.navbar-nav{ 
     display: flex;
     flex-direction: row;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    font-style: bold;
+}
+
+.nav-item {
+    padding: 0px;
+    margin: 20px;
+    border: 0;
     
 }
 
@@ -32,18 +50,36 @@ body {
 }
 
 #column1{
-    padding: 20px;
-
-
+padding: 10px;
 }
 #column2{
-    padding-top: 0px;
-    
+padding: 10px;
+}
+#column3{
+    border-bottom: 20px;
+    margin-bottom: 20px;
 
+}
+.btn{
+    width: 100%;
+}
+.card-footer{
+    background-color: white;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    position: absolute;
+    bottom: 0;
+
+}
+
+.card-img-overlay{
+    padding: 0;
 }
 
 hr{
     border-top: 3px dotted white;
+    margin: 5px;
 }
 
 .container-fluid{
@@ -68,12 +104,13 @@ hr{
 }
 
 .fixed-bottom {
-    padding-top: 10px;
+    padding: 10px;
+    margin: 0;
     background-color: lightgrey;
     height: 50px;
     text-align: center;
     border-top: 2px solid  salmon;
-    position: absolute;
+    position: fixed;
     width: 100%;
 
 }
